@@ -5,6 +5,8 @@ Hardware Testing of the new CP_Testing (Testing all peripherals) which includes:
 (1) Power of LORA module.
 (2) Power of 4G_LTE module.
 (3) Flash IC using SPI (Write and Read the content).
+<img width="1431" height="996" alt="image" src="https://github.com/user-attachments/assets/cf49fc11-7765-40fc-8444-84d1681883d5" />
+
 (4) RTC (Timing update) (0x51)
 (5) I2C Scanner
 <img width="1415" height="935" alt="image" src="https://github.com/user-attachments/assets/3e77c6e9-364c-4281-80b8-64e533bb14af" />
