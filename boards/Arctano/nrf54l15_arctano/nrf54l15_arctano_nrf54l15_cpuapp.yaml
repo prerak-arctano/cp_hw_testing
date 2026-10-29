@@ -1,0 +1,11 @@
+identifier: nrf54l15_arctano/nrf54l15/cpuapp
+name: Arctano nRF54L15 Application MCU
+vendor: arctano
+arch: arm
+toolchain:
+  - zephyr
+sysbuild: true
+ram: 188
+flash: 1428
+supported:
+  - gpio

@@ -1,0 +1,7491 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d909efd3-39a3-41df-bfa2-c9098c0fb9c6")
+	(paper "A4")
+	(title_block
+		(title "CP_Testing_Auto_Node")
+		(date "2025-12-20")
+		(rev "v1.0")
+		(company "Arctano Solutions Pvt Ltd")
+		(comment 1 "New Delhi")
+		(comment 2 "Mohit Garg")
+	)
+	(lib_symbols
+		(symbol "MX25R6435FM2IL0:MX25R6435FM2IL0"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MX25R6435FM2IL0"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MX25R6435FM2IL0:MX25R6435FM2IL0"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.macronix.com/Lists/Datasheet/Attachments/8868/MX25R6435F,%20Wide%20Range,%2064Mb,%20v1.6.pdf"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MX25R6435FM2IL0_0_0"
+				(pin power_in line
+					(at -12.7 10.16 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "SI/SIO0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "SO/SIO1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "~{WP}/SIO2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "~{RESET}/SIO3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at 12.7 -10.16 180)
+					(length 2.54)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MX25R6435FM2IL0_1_0"
+				(rectangle
+					(start -10.16 12.7)
+					(end 10.16 -12.7)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Passive_Components:FB0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at 0 2 0)
+				(effects
+					(font
+						(size 1.143 1.143)
+					)
+				)
+			)
+			(property "Value" "FB0603"
+				(at 0 -2 0)
+				(effects
+					(font
+						(size 1.143 1.143)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Passive_Components:FB0603"
+				(at 0 -3.5 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite Bead 0603 2A"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "0603"
+				(at 0 -2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "ki_fp_filters" "*0402* *0603* *0805* *1206*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FB0603_0_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.762 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 1.524 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 3.302 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 0) (xy 3.302 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FB0603_0_1"
+				(arc
+					(start -3.81 0)
+					(mid -3.175 0.635)
+					(end -2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -1.905 0.635)
+					(end -1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 0)
+					(mid -0.635 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FB0603_1_0"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Passive_Components:MLCC0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 3 0)
+				(effects
+					(font
+						(size 1.143 1.143)
+					)
+				)
+			)
+			(property "Value" "MLCC0603"
+				(at 0 -3 0)
+				(effects
+					(font
+						(size 1.143 1.143)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Passive_Components:C0603"
+				(at 0 -5 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 1.15 -0.05 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Non-Polorized Capacitor ?F ?% 0603 ?V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "0603"
+				(at 0 -3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "ki_fp_filters" "*0402* *0603* *0603* *0603* *CAP-PTH-SMALL-KIT*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MLCC0603_1_0"
+				(polyline
+					(pts
+						(xy -1.4 0) (xy -0.892 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.4 0) (xy 0.892 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MLCC0603_1_1"
+				(rectangle
+					(start -0.3 -2)
+					(end -0.808 2.064)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8 -2)
+					(end 0.292 2.064)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Passive_Components:Solder_Jumper"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Solder_Jumper"
+				(at 0 -3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Passive_Components:Solder Jumper"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Solder_Jumper_0_1"
+				(polyline
+					(pts
+						(xy -2.5 0) (xy -1.7 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.2 1.5) (xy -0.2 -1.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.2 -1.5)
+					(mid -1.6828 0)
+					(end -0.2 1.5)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.2 1.5)
+					(mid 1.6828 0)
+					(end 0.2 -1.5)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.2 1.5) (xy 0.2 -1.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.7 0) (xy 2.5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Solder_Jumper_1_1"
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Passive_Components:TFR0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2 0)
+				(effects
+					(font
+						(size 1.143 1.143)
+					)
+				)
+			)
+			(property "Value" "TFR0603"
+				(at 0 -2 0)
+				(effects
+					(font
+						(size 1.143 1.143)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Passive_Components:R0603"
+				(at 0 -3.5 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor ?Ω ?% 0603 1/10W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "0603"
+				(at 0 -2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "ki_fp_filters" "*0402* *0603* *0805* *1206*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TFR0603_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.159 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 1.016) (xy -1.524 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.016) (xy -0.889 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.016) (xy 0.381 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.016) (xy 1.651 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 1.016) (xy 2.286 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TFR0603_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Passive_Components:Testpoint"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0.635 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Passive_Components:TP"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Testpoint_0_1"
+				(circle
+					(center 0 1.905)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Testpoint_1_0"
+				(pin bidirectional line
+					(at 0 0 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power_symbol:GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#PWR"
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 3.81 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Source" "GND"
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.524) (xy 1.016 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -2.286) (xy 0.254 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 1.27)
+					(name "GND_uC"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power_symbol:Vcc"
+			(power)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#PWR"
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Vcc"
+				(at 3.81 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Source" "Volt"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(symbol "Vcc_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 1.27 1.27) (xy 0 2.54) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Vcc_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 1.27)
+					(name "+3V3_uC"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Memory Flash"
+		(exclude_from_sim no)
+		(at 31.75 139.7 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "7dd5c36c-b798-4d8a-bc9b-a88f0752ab06")
+	)
+	(text "Main: GPIOs and Flash Memory"
+		(exclude_from_sim no)
+		(at 12.7 12.7 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "8456c375-49f6-4bf6-8bfc-a242bd318cb0")
+	)
+	(text "GPIOs"
+		(exclude_from_sim no)
+		(at 25.4 25.4 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "d37c050f-1db6-4566-bb98-f4e47d8c717c")
+	)
+	(text_box "S25FL128LAGMFV013 16MB Substitute"
+		(exclude_from_sim no)
+		(at 100.33 194.31 0)
+		(size 24.765 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "da7d8ca8-df73-450a-95de-b965a4e460da")
+	)
+	(text_box "Add a pin as interrupt to Identify 4G Module and Lora Module"
+		(exclude_from_sim no)
+		(at 215.9 67.945 0)
+		(size 35.56 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f29f6cfe-726b-4c8e-892a-4e50ec6a6061")
+	)
+	(junction
+		(at 44.45 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ecdc929-4a7d-4779-83e3-5419f54d2ed6")
+	)
+	(junction
+		(at 55.88 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "213e0909-9284-4ef5-ac18-d6809969ab91")
+	)
+	(junction
+		(at 123.19 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4061440d-0143-46ea-ab72-dfd9b246a958")
+	)
+	(junction
+		(at 44.45 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0e57830-1a03-4789-bf4f-6ddc2fec44ea")
+	)
+	(junction
+		(at 55.88 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f02375cf-1a9c-4220-bf70-0264dd3a4592")
+	)
+	(bus_entry
+		(at 40.64 102.87)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "065f683c-cb79-4f6a-8c96-c166ad505c20")
+	)
+	(bus_entry
+		(at 40.64 67.31)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a83c262-2076-40f8-b486-6f616c2c353b")
+	)
+	(bus_entry
+		(at 40.64 82.55)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d6b1d99-12dd-4995-a5dc-937e669bdc20")
+	)
+	(bus_entry
+		(at 152.4 74.93)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f219caa-cf62-41ae-a7c2-b82f936176ac")
+	)
+	(bus_entry
+		(at 78.74 85.09)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "187bbfc2-78fd-4717-b0db-edcf9058c3d5")
+	)
+	(bus_entry
+		(at 40.64 41.91)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cbb3477-1aaa-4373-9642-11c2baa8a205")
+	)
+	(bus_entry
+		(at 127 170.18)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cd52439-7bd1-47a5-9bc6-fadc15342431")
+	)
+	(bus_entry
+		(at 114.3 74.93)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d8a6e86-005f-402b-8d58-308231d5395e")
+	)
+	(bus_entry
+		(at 114.3 85.09)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31534f12-5c31-4c96-81b9-096e891df38a")
+	)
+	(bus_entry
+		(at 81.28 130.81)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32897468-be4b-46b3-94aa-2da33bec3918")
+	)
+	(bus_entry
+		(at 152.4 85.09)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3290366b-5ae8-4c3a-84cc-a479e1729cdd")
+	)
+	(bus_entry
+		(at 114.3 69.85)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34b8091b-c8df-46a6-8c13-250d9af6ba5a")
+	)
+	(bus_entry
+		(at 40.64 97.79)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ca5a1fe-7d53-4428-918f-9a99bbdba144")
+	)
+	(bus_entry
+		(at 114.3 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ffe0738-8e13-4e7d-ade0-6fbbab2aa9f1")
+	)
+	(bus_entry
+		(at 156.21 100.33)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b2469d-b96a-4be8-8071-2054fad62f17")
+	)
+	(bus_entry
+		(at 40.64 128.27)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "436f4894-7f88-45d5-a776-ee619fd9b8ac")
+	)
+	(bus_entry
+		(at 114.3 95.25)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d73e27-47bb-4459-8fce-cdeceef39ae2")
+	)
+	(bus_entry
+		(at 81.28 120.65)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a17293-bc5e-48db-a041-130e7d2e80e0")
+	)
+	(bus_entry
+		(at 40.64 77.47)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bae16a8-3ebf-40e5-9e93-577ac03b937f")
+	)
+	(bus_entry
+		(at 40.64 72.39)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "535eface-a495-4ce4-a9ef-90893d209755")
+	)
+	(bus_entry
+		(at 114.3 110.49)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b91a4d5-6ddb-4d5f-977b-70ebef1c53bd")
+	)
+	(bus_entry
+		(at 127 175.26)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bfcb3cc-0952-453e-88a0-9e87eb1c2572")
+	)
+	(bus_entry
+		(at 152.4 80.01)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c7a8297-9b86-4d9e-a8cc-2eba19ce4f3b")
+	)
+	(bus_entry
+		(at 127 177.8)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6208e8b8-649f-47d0-a43a-730bcefe7e45")
+	)
+	(bus_entry
+		(at 81.28 115.57)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "642ca868-4dbf-4f95-9812-5cbbcb1d722d")
+	)
+	(bus_entry
+		(at 40.64 113.03)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f206614-9a58-4865-9dd5-c5a731942a1a")
+	)
+	(bus_entry
+		(at 76.2 64.77)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7852b3fe-8561-4985-abbb-9569e6683337")
+	)
+	(bus_entry
+		(at 114.3 105.41)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a046a09-65cb-4a0c-aae0-7be44c9df58d")
+	)
+	(bus_entry
+		(at 114.3 115.57)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8162a3cd-d71a-4eb8-a8e5-ff83dcf43b77")
+	)
+	(bus_entry
+		(at 165.1 120.65)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8937cafd-5874-4cb8-9ed0-52dfb56cec4e")
+	)
+	(bus_entry
+		(at 127 165.1)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "893f67a8-d80a-44ef-857c-2ef742eb3bbf")
+	)
+	(bus_entry
+		(at 40.64 118.11)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b46978c-0c1c-41b9-8fd9-c25bf47f4f3c")
+	)
+	(bus_entry
+		(at 78.74 80.01)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c0a3356-54ef-4692-8873-b0aacdf165dd")
+	)
+	(bus_entry
+		(at 40.64 46.99)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf10340-6d60-4179-a9dd-e2d7b9d97782")
+	)
+	(bus_entry
+		(at 157.48 115.57)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dbe7401-90ac-4b2e-820c-704b0ce0752e")
+	)
+	(bus_entry
+		(at 127 172.72)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99905f14-98d3-4b4e-9a14-f6fd7f00c4ca")
+	)
+	(bus_entry
+		(at 81.28 125.73)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a5d174d-c8a2-4f1a-a8a1-79ce9ba807c6")
+	)
+	(bus_entry
+		(at 40.64 52.07)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aebe1d5-06fa-4c39-a636-678f51945992")
+	)
+	(bus_entry
+		(at 152.4 95.25)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9df82b8b-c9c6-4ea1-bdfc-6fc52fd93893")
+	)
+	(bus_entry
+		(at 152.4 90.17)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a08a2a72-68d5-4224-aa33-aa59ed635473")
+	)
+	(bus_entry
+		(at 114.3 80.01)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ba4d2c-a81e-4574-93c1-f419309ac289")
+	)
+	(bus_entry
+		(at 152.4 69.85)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9c8284a-7bb9-4303-beba-08addf653efd")
+	)
+	(bus_entry
+		(at 156.21 105.41)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac2ab84b-9543-4adf-88e0-b916a5f12d0b")
+	)
+	(bus_entry
+		(at 40.64 107.95)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adaa8228-4df7-4872-b8b0-f79eaa2b2ece")
+	)
+	(bus_entry
+		(at 40.64 92.71)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b531c912-e3dc-493a-af4a-51d9d10aad22")
+	)
+	(bus_entry
+		(at 40.64 44.45)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6956b0b-6019-42be-b2c3-37b6f430fe50")
+	)
+	(bus_entry
+		(at 114.3 100.33)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8f0b723-b3e7-4dcf-a732-9f6b43e8f913")
+	)
+	(bus_entry
+		(at 157.48 110.49)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc59cec1-ca93-4ab2-95ca-4d0e6080d034")
+	)
+	(bus_entry
+		(at 76.2 69.85)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd312900-027b-4558-876e-fa4b6ac4f2f6")
+	)
+	(bus_entry
+		(at 40.64 87.63)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbb205d6-1402-43da-94ab-918c0f039270")
+	)
+	(bus_entry
+		(at 114.3 90.17)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdae05a1-7b01-4d9d-8631-17594933f857")
+	)
+	(bus_entry
+		(at 40.64 57.15)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a32bf1-6d28-4388-a995-38d35af8f4f5")
+	)
+	(bus_entry
+		(at 80.01 54.61)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ad4331-a70e-440d-b746-5b347abdd8e0")
+	)
+	(bus_entry
+		(at 114.3 64.77)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d553b87f-3f01-455b-87b8-d17cc931f442")
+	)
+	(bus_entry
+		(at 80.01 49.53)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ab08ce-a28e-4f62-be3f-a1b16e460ca4")
+	)
+	(bus_entry
+		(at 127 185.42)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e038a3a8-056d-4c8f-afee-9e643396bff1")
+	)
+	(bus_entry
+		(at 78.74 74.93)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea637b1f-6fea-4a0d-bb3e-b6d8e7d2e157")
+	)
+	(bus_entry
+		(at 40.64 123.19)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb9f1e48-945a-49f7-b6cf-887a67e4159b")
+	)
+	(bus_entry
+		(at 80.01 44.45)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd864f7-0de2-4f1e-bc57-9d23c65ed7ee")
+	)
+	(wire
+		(pts
+			(xy 116.84 113.03) (xy 128.27 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0060c106-2bcf-48ca-9f0c-4eb35b8fb639")
+	)
+	(wire
+		(pts
+			(xy 116.84 77.47) (xy 128.27 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b6112a-dbdf-4332-89f1-4dfd490a475c")
+	)
+	(wire
+		(pts
+			(xy 40.64 77.47) (xy 52.07 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02ac762a-0818-4c07-b0c2-09575648f8f7")
+	)
+	(bus
+		(pts
+			(xy 76.2 64.77) (xy 76.2 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02ad6617-9148-4007-81b1-66d10fae9a01")
+	)
+	(wire
+		(pts
+			(xy 116.84 82.55) (xy 128.27 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b663cc-e5e3-440a-9112-84b16183de07")
+	)
+	(wire
+		(pts
+			(xy 138.43 97.79) (xy 149.86 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0312ee91-89da-413d-89d7-b8e56dae8f69")
+	)
+	(bus
+		(pts
+			(xy 38.1 105.41) (xy 38.1 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ace8ad-63f6-4aea-aa50-52de387efb78")
+	)
+	(wire
+		(pts
+			(xy 44.45 152.4) (xy 44.45 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06921632-042d-4a07-951b-c61fad25ef0c")
+	)
+	(wire
+		(pts
+			(xy 40.64 118.11) (xy 52.07 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06cceae4-d37a-401e-b37b-55b5dd2e432b")
+	)
+	(wire
+		(pts
+			(xy 116.84 118.11) (xy 128.27 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "083c9f74-6d96-47fc-851e-64d9e40c3856")
+	)
+	(wire
+		(pts
+			(xy 154.94 113.03) (xy 138.43 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "085f2bcc-442e-45f2-98bf-53557a89e7e2")
+	)
+	(bus
+		(pts
+			(xy 38.1 115.57) (xy 38.1 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08f827d3-0821-4c21-b23b-8e1dceb52b13")
+	)
+	(wire
+		(pts
+			(xy 95.25 187.96) (xy 124.46 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a363549-2f08-4be0-b11e-c50bbeb98955")
+	)
+	(bus
+		(pts
+			(xy 38.1 41.91) (xy 38.1 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a5c9a2e-fa37-4846-b780-7196c194d4cf")
+	)
+	(wire
+		(pts
+			(xy 62.23 118.11) (xy 78.74 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e15ac08-443b-4420-9ad5-584b5d749564")
+	)
+	(wire
+		(pts
+			(xy 62.23 123.19) (xy 78.74 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "103e6e90-4429-41d4-a93d-96254b0d3fd6")
+	)
+	(bus
+		(pts
+			(xy 114.3 110.49) (xy 114.3 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10cc32a6-7151-4cee-84b2-eb8eee018e74")
+	)
+	(wire
+		(pts
+			(xy 46.99 41.91) (xy 40.64 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15e198cc-a11d-4c71-bbf7-d94c7c8112f6")
+	)
+	(bus
+		(pts
+			(xy 38.1 54.61) (xy 38.1 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "173394e9-61d8-42e7-93e6-0e6c2507e207")
+	)
+	(bus
+		(pts
+			(xy 81.28 120.65) (xy 81.28 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bc9bd9d-8568-4699-bae9-4cd6372a86d2")
+	)
+	(bus
+		(pts
+			(xy 38.1 69.85) (xy 38.1 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c660c20-0da6-4a93-8171-c47984a9d089")
+	)
+	(bus
+		(pts
+			(xy 127 177.8) (xy 127 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fab9261-ba85-4136-accc-5492660c5bec")
+	)
+	(bus
+		(pts
+			(xy 38.1 115.57) (xy 38.1 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "215ee499-d860-458d-a3df-d621e3607eda")
+	)
+	(wire
+		(pts
+			(xy 78.74 113.03) (xy 62.23 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21ab74c4-bb64-4059-aa3c-3d140cfb8857")
+	)
+	(wire
+		(pts
+			(xy 40.64 67.31) (xy 52.07 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2344baaa-53f8-481e-acfd-64c7794de6c6")
+	)
+	(wire
+		(pts
+			(xy 138.43 123.19) (xy 162.56 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "261413be-5d4d-41b5-847d-dd7d4c81749c")
+	)
+	(bus
+		(pts
+			(xy 78.74 80.01) (xy 78.74 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "263bf0a1-e903-4f42-8336-53390a598ee6")
+	)
+	(bus
+		(pts
+			(xy 38.1 120.65) (xy 38.1 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "309aadc0-4666-4e0b-9b1b-d21bb68509f9")
+	)
+	(bus
+		(pts
+			(xy 114.3 95.25) (xy 114.3 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30bfba23-fdb1-4340-b7ac-413e638c66b3")
+	)
+	(wire
+		(pts
+			(xy 116.84 97.79) (xy 128.27 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30e956d5-cd94-4c4a-95ff-ecfd0b8d9b8c")
+	)
+	(wire
+		(pts
+			(xy 40.64 46.99) (xy 52.07 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31af3c2a-6cef-4142-b89f-f52d9a2b96e1")
+	)
+	(wire
+		(pts
+			(xy 50.8 43.18) (xy 50.8 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33822bf2-bbfd-498d-a4c0-bc8c71d9f38f")
+	)
+	(bus
+		(pts
+			(xy 38.1 80.01) (xy 38.1 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33901f64-5774-4689-8e8d-8f3b50a9df85")
+	)
+	(wire
+		(pts
+			(xy 138.43 82.55) (xy 149.86 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "363512d4-4d38-4b7c-bd16-bbfdefde3f2a")
+	)
+	(wire
+		(pts
+			(xy 123.19 165.1) (xy 123.19 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36d5f5ac-525e-4e75-815e-3984198545a8")
+	)
+	(bus
+		(pts
+			(xy 81.28 125.73) (xy 81.28 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39fdd3cf-9698-4132-bf43-8f894518519d")
+	)
+	(wire
+		(pts
+			(xy 40.64 82.55) (xy 52.07 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a125511-8f05-4e60-96cb-844abb2256a0")
+	)
+	(bus
+		(pts
+			(xy 152.4 90.17) (xy 152.4 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a5ef648-981a-44a5-acf4-0a74484b8964")
+	)
+	(wire
+		(pts
+			(xy 116.84 67.31) (xy 137.16 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c5c1eda-0ac8-4a0f-aa72-b7c9f866701b")
+	)
+	(wire
+		(pts
+			(xy 106.68 177.8) (xy 124.46 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff31d26-d9fa-4389-a419-e142f905a317")
+	)
+	(bus
+		(pts
+			(xy 114.3 105.41) (xy 114.3 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4133c3d4-b25b-454b-b1c8-3bd5645de836")
+	)
+	(bus
+		(pts
+			(xy 152.4 74.93) (xy 152.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43213b51-6878-4ed5-96f0-0b9e568ee8ab")
+	)
+	(wire
+		(pts
+			(xy 138.43 92.71) (xy 149.86 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "452b15cf-30ad-4928-b0cc-e779844533c0")
+	)
+	(bus
+		(pts
+			(xy 114.3 95.25) (xy 114.3 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46790bac-06ae-494e-91cc-202d91b6eb2b")
+	)
+	(wire
+		(pts
+			(xy 106.68 180.34) (xy 124.46 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47dd1be0-2545-4d4c-b96f-ee66d3b8204a")
+	)
+	(bus
+		(pts
+			(xy 166.37 119.38) (xy 165.1 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "491cc76c-0f92-4864-b1a3-10d8f7809d81")
+	)
+	(wire
+		(pts
+			(xy 44.45 187.96) (xy 55.88 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a9c0cd8-cb7c-448c-af9f-17164734912f")
+	)
+	(bus
+		(pts
+			(xy 38.1 85.09) (xy 38.1 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b08d421-e789-4d02-bb48-513781a7d219")
+	)
+	(wire
+		(pts
+			(xy 55.88 167.64) (xy 58.42 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b8ed3bf-736e-420c-8233-345b0cef71eb")
+	)
+	(wire
+		(pts
+			(xy 44.45 190.5) (xy 44.45 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c5f5a83-ca64-474a-89af-2aa603c90b47")
+	)
+	(wire
+		(pts
+			(xy 116.84 107.95) (xy 128.27 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c826a52-431d-49c0-92dd-18a482c80c77")
+	)
+	(wire
+		(pts
+			(xy 40.64 107.95) (xy 52.07 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6a5cd2-6a0e-4fd0-bc4a-0f9f4af10bfa")
+	)
+	(wire
+		(pts
+			(xy 138.43 87.63) (xy 149.86 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "509a3e84-4233-443f-b3a2-ecf6f8638497")
+	)
+	(bus
+		(pts
+			(xy 38.1 63.5) (xy 38.1 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5406c247-0b5f-4dbe-8c0f-2aac6e57d2a2")
+	)
+	(wire
+		(pts
+			(xy 50.8 44.45) (xy 40.64 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56267469-477d-4683-b75e-50e489b5bbb5")
+	)
+	(wire
+		(pts
+			(xy 154.94 118.11) (xy 138.43 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "586523a8-a563-41e8-b194-8d4a8badea29")
+	)
+	(wire
+		(pts
+			(xy 138.43 72.39) (xy 149.86 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58dc5593-e45f-4891-8793-6c77d272aa17")
+	)
+	(bus
+		(pts
+			(xy 78.74 73.66) (xy 78.74 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5958b2a4-1415-48f1-95d4-f543afb2c796")
+	)
+	(wire
+		(pts
+			(xy 106.68 175.26) (xy 124.46 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf84278-e954-4548-a211-30d7b5920b0f")
+	)
+	(wire
+		(pts
+			(xy 95.25 167.64) (xy 96.52 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e92258b-5715-4296-86d2-9a8687d8640a")
+	)
+	(wire
+		(pts
+			(xy 40.64 57.15) (xy 52.07 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60d47600-ebae-4c96-bfd5-f7c2b6665372")
+	)
+	(wire
+		(pts
+			(xy 55.88 167.64) (xy 55.88 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6104f659-12ed-4558-ad5a-2d25e7b489d3")
+	)
+	(wire
+		(pts
+			(xy 40.64 128.27) (xy 52.07 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63df194e-f4a4-47d4-acd6-b60443d945b5")
+	)
+	(wire
+		(pts
+			(xy 44.45 167.64) (xy 44.45 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6565ec06-22a3-4bf9-a9e8-cb881da42e02")
+	)
+	(wire
+		(pts
+			(xy 40.64 87.63) (xy 52.07 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab6dc98-356a-4883-b7e9-24a973965716")
+	)
+	(bus
+		(pts
+			(xy 114.3 63.5) (xy 114.3 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ad54ba2-e637-40e4-848d-63acec980035")
+	)
+	(bus
+		(pts
+			(xy 156.21 99.06) (xy 156.21 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b2b07c0-6f1a-47aa-bbf5-42efbdada459")
+	)
+	(wire
+		(pts
+			(xy 77.47 46.99) (xy 62.23 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c7af7ac-2909-49f9-9b12-86492b0632d3")
+	)
+	(wire
+		(pts
+			(xy 40.64 102.87) (xy 52.07 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cab8955-d563-4d3e-b472-e04766872046")
+	)
+	(wire
+		(pts
+			(xy 62.23 77.47) (xy 76.2 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ccd4702-3c07-4e93-ab55-235255d10498")
+	)
+	(wire
+		(pts
+			(xy 116.84 92.71) (xy 128.27 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d6ac494-1088-46a7-98bd-0430cb913c92")
+	)
+	(wire
+		(pts
+			(xy 116.84 123.19) (xy 128.27 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d84ea64-4fea-45a2-9b2e-f7f2fced6a99")
+	)
+	(bus
+		(pts
+			(xy 80.01 43.18) (xy 80.01 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f2f799b-7d13-4f92-b3b0-e63d1baa737b")
+	)
+	(bus
+		(pts
+			(xy 81.28 132.08) (xy 81.28 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70b861d9-1267-48d2-b72a-4812669ec95d")
+	)
+	(bus
+		(pts
+			(xy 165.1 119.38) (xy 165.1 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7138dff0-ae7c-42cd-88ce-bf40c0bd3d84")
+	)
+	(bus
+		(pts
+			(xy 38.1 49.53) (xy 38.1 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ef05a2-053e-4ae9-b85b-708d869919ea")
+	)
+	(wire
+		(pts
+			(xy 46.99 38.1) (xy 46.99 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76f7cc8b-07df-4e93-96fc-01b8be2b3415")
+	)
+	(bus
+		(pts
+			(xy 80.01 43.18) (xy 81.28 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7747ef16-2c00-4ea5-a949-a87cc7645652")
+	)
+	(wire
+		(pts
+			(xy 62.23 107.95) (xy 76.2 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7882ad5d-199f-43f1-8ecc-8f17104601db")
+	)
+	(wire
+		(pts
+			(xy 62.23 82.55) (xy 76.2 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a3656ca-700d-4bcb-a670-05457d1d9692")
+	)
+	(bus
+		(pts
+			(xy 114.3 90.17) (xy 114.3 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7abe1c4d-5854-4376-b141-40219aba4d7d")
+	)
+	(wire
+		(pts
+			(xy 62.23 102.87) (xy 76.2 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bd7722e-c3aa-4bd9-8310-0b5ed5dc12eb")
+	)
+	(bus
+		(pts
+			(xy 156.21 99.06) (xy 157.48 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d303d86-02cd-449c-b690-55d0763e7ca8")
+	)
+	(bus
+		(pts
+			(xy 77.47 63.5) (xy 76.2 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f3e0a8e-c8fb-4c42-bfb8-d01025bd727b")
+	)
+	(wire
+		(pts
+			(xy 77.47 52.07) (xy 62.23 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80dbdf0a-3f21-4f66-a3f2-1565060234e3")
+	)
+	(wire
+		(pts
+			(xy 68.58 167.64) (xy 69.85 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "810c8462-5de2-4bc8-b8af-762b4f0c0e7c")
+	)
+	(wire
+		(pts
+			(xy 106.68 167.64) (xy 123.19 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81332e5c-d817-4af4-8974-2d442dadf830")
+	)
+	(bus
+		(pts
+			(xy 80.01 73.66) (xy 78.74 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ee1e9b-cc25-48fd-8f7c-58c059592f34")
+	)
+	(wire
+		(pts
+			(xy 153.67 107.95) (xy 138.43 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8802d4af-8b54-443b-b255-5cec99aec56d")
+	)
+	(wire
+		(pts
+			(xy 138.43 77.47) (xy 149.86 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c461fb-1217-4f15-ae3e-b4d3362eac51")
+	)
+	(bus
+		(pts
+			(xy 81.28 115.57) (xy 81.28 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aa00113-75fd-42c1-be37-218383a6ac5f")
+	)
+	(bus
+		(pts
+			(xy 38.1 44.45) (xy 38.1 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8beed31d-0e54-4573-92b4-eb8e45fbdd89")
+	)
+	(bus
+		(pts
+			(xy 158.75 109.22) (xy 157.48 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d5747bd-ba98-4559-9d06-c2a08a113189")
+	)
+	(wire
+		(pts
+			(xy 40.64 92.71) (xy 52.07 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d78fb83-87e3-45fe-80e3-711384a2c2ff")
+	)
+	(wire
+		(pts
+			(xy 95.25 175.26) (xy 96.52 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a8c50b-e5be-4665-944c-32635e7e14a9")
+	)
+	(wire
+		(pts
+			(xy 73.66 72.39) (xy 62.23 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9534f402-34a9-45b8-9015-aed81de09115")
+	)
+	(bus
+		(pts
+			(xy 127 165.1) (xy 127 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "953b0550-523a-4a57-9f2b-24650b6b9e7f")
+	)
+	(bus
+		(pts
+			(xy 157.48 110.49) (xy 157.48 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a7fde59-618b-46b1-95e9-640392a5fa48")
+	)
+	(bus
+		(pts
+			(xy 114.3 80.01) (xy 114.3 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc4ff7c-de48-4a14-80be-de2a3fd69166")
+	)
+	(bus
+		(pts
+			(xy 114.3 115.57) (xy 114.3 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c052015-5eb5-4baf-b477-1fc4ff38b53f")
+	)
+	(bus
+		(pts
+			(xy 152.4 69.85) (xy 152.4 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d6abe8e-8c41-4586-b529-68a96e85f5ad")
+	)
+	(bus
+		(pts
+			(xy 80.01 44.45) (xy 80.01 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f6f85cc-a5c9-479f-9dcc-e7f985314664")
+	)
+	(bus
+		(pts
+			(xy 127 158.75) (xy 128.27 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2a77186-22a8-4c23-b986-2c7b221f9917")
+	)
+	(bus
+		(pts
+			(xy 113.03 63.5) (xy 114.3 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d96910-cdb9-4873-9ccd-eaa6b4a455ff")
+	)
+	(wire
+		(pts
+			(xy 138.43 102.87) (xy 153.67 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a61a1f77-2a66-45da-aa07-83b695728ac2")
+	)
+	(bus
+		(pts
+			(xy 38.1 39.37) (xy 38.1 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9511276-228a-422b-9e9c-13a4868272b5")
+	)
+	(wire
+		(pts
+			(xy 116.84 72.39) (xy 128.27 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa2437de-b24b-49b0-bd77-e453f4d79465")
+	)
+	(bus
+		(pts
+			(xy 114.3 74.93) (xy 114.3 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa3306ea-17c2-4143-8f09-90e653051f21")
+	)
+	(wire
+		(pts
+			(xy 40.64 52.07) (xy 52.07 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac8bb010-aedd-44d5-ad3b-c0d40502cc13")
+	)
+	(wire
+		(pts
+			(xy 95.25 172.72) (xy 96.52 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad228add-72f2-4c47-a11a-efbd976ae93a")
+	)
+	(bus
+		(pts
+			(xy 80.01 49.53) (xy 80.01 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af358bae-d80d-4e5b-b27c-7023b452bfea")
+	)
+	(wire
+		(pts
+			(xy 73.66 67.31) (xy 62.23 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0db07e1-000e-4db4-a6ed-effd6918c12a")
+	)
+	(bus
+		(pts
+			(xy 114.3 85.09) (xy 114.3 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b22c0aa5-0dac-405f-92ef-ab37404a02b2")
+	)
+	(bus
+		(pts
+			(xy 76.2 63.5) (xy 76.2 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b931824c-a9f1-4bce-afc9-084bfd95cde1")
+	)
+	(wire
+		(pts
+			(xy 124.46 167.64) (xy 123.19 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b994ca76-b29f-4597-85ae-aa7921adb9d3")
+	)
+	(bus
+		(pts
+			(xy 152.4 80.01) (xy 152.4 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba7f85f8-d2f2-4c67-bf88-3cb3f98c4390")
+	)
+	(bus
+		(pts
+			(xy 153.67 68.58) (xy 152.4 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "babcc017-d69f-4e2c-9c2c-15bc7827c054")
+	)
+	(wire
+		(pts
+			(xy 40.64 97.79) (xy 52.07 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd13f22c-3e4f-4f63-98df-01cb53cc6c22")
+	)
+	(wire
+		(pts
+			(xy 44.45 167.64) (xy 55.88 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be34174b-27a6-4609-a6d0-cd6840332554")
+	)
+	(wire
+		(pts
+			(xy 95.25 180.34) (xy 96.52 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef4b691-400b-49db-82c9-b7781779a887")
+	)
+	(bus
+		(pts
+			(xy 127 158.75) (xy 127 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf10d5f2-8753-4c35-a9fc-dcafdfe38f70")
+	)
+	(wire
+		(pts
+			(xy 62.23 128.27) (xy 78.74 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf73ca94-a2a1-4545-b28d-3bdb0d1fa016")
+	)
+	(wire
+		(pts
+			(xy 62.23 92.71) (xy 76.2 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c30cac-d958-43e8-85d8-279145e0ac4b")
+	)
+	(wire
+		(pts
+			(xy 95.25 177.8) (xy 96.52 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c217d027-55df-4991-be72-b0915b8857db")
+	)
+	(bus
+		(pts
+			(xy 127 175.26) (xy 127 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c429b276-2421-40d4-825b-50b42e730df4")
+	)
+	(bus
+		(pts
+			(xy 156.21 100.33) (xy 156.21 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7fcdad2-0ce4-43a3-931f-fc8135309264")
+	)
+	(bus
+		(pts
+			(xy 114.3 64.77) (xy 114.3 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c979f5d2-c242-45e1-ba34-9556427e91f9")
+	)
+	(bus
+		(pts
+			(xy 38.1 74.93) (xy 38.1 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1335b74-1e70-412b-a896-adc0c0d5b2ab")
+	)
+	(wire
+		(pts
+			(xy 40.64 113.03) (xy 52.07 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d16b9449-af9a-43ee-be1d-eb5cba706d25")
+	)
+	(bus
+		(pts
+			(xy 38.1 100.33) (xy 38.1 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2359878-6749-499a-a68f-15d3a87cd223")
+	)
+	(wire
+		(pts
+			(xy 62.23 97.79) (xy 76.2 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3707d03-a9fc-44c9-8caa-c43df6acf066")
+	)
+	(wire
+		(pts
+			(xy 77.47 57.15) (xy 62.23 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d54cdc64-d0da-4e20-a63e-680d7e439a4b")
+	)
+	(bus
+		(pts
+			(xy 36.83 63.5) (xy 38.1 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a2b6b3-cd32-4076-bd64-72b4cd35d71d")
+	)
+	(bus
+		(pts
+			(xy 38.1 64.77) (xy 38.1 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0792ef3-2028-46a1-9511-315e33d6fdf7")
+	)
+	(bus
+		(pts
+			(xy 127 170.18) (xy 127 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1db02b7-3aac-41dd-9c9c-78fb408ee37c")
+	)
+	(bus
+		(pts
+			(xy 152.4 85.09) (xy 152.4 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c13105-bbf9-4f5e-bfe4-2f8ae72942de")
+	)
+	(bus
+		(pts
+			(xy 152.4 95.25) (xy 152.4 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3207c26-4a95-4e78-9f4b-6b6bbe3f9072")
+	)
+	(bus
+		(pts
+			(xy 38.1 38.1) (xy 36.83 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e39406e8-b815-4353-b1f0-ed012580cc01")
+	)
+	(bus
+		(pts
+			(xy 157.48 109.22) (xy 157.48 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7137156-c36d-4f91-98cc-38ca6ad093a5")
+	)
+	(wire
+		(pts
+			(xy 116.84 87.63) (xy 128.27 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7b80361-17f8-4717-a8de-e0de60b56258")
+	)
+	(wire
+		(pts
+			(xy 116.84 102.87) (xy 128.27 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef7f81d3-5bae-4a28-adbb-a512170e26ce")
+	)
+	(wire
+		(pts
+			(xy 123.19 152.4) (xy 123.19 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f10b4f54-90a2-43a7-9d2b-3ae5a14b8455")
+	)
+	(wire
+		(pts
+			(xy 106.68 172.72) (xy 124.46 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1c65490-0342-45d4-8cb6-a5aea938b117")
+	)
+	(wire
+		(pts
+			(xy 40.64 72.39) (xy 52.07 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e59813-0284-455a-b996-886cb32d2d6b")
+	)
+	(wire
+		(pts
+			(xy 62.23 87.63) (xy 76.2 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f51c1810-6b0e-4dca-8b43-874376f05708")
+	)
+	(bus
+		(pts
+			(xy 114.3 100.33) (xy 114.3 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5b13c24-443b-467c-9906-8155d33f6e06")
+	)
+	(bus
+		(pts
+			(xy 81.28 132.08) (xy 82.55 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7016bdd-d8e9-47b5-b5ba-0362f1b8f5d2")
+	)
+	(bus
+		(pts
+			(xy 78.74 74.93) (xy 78.74 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f71c99bb-ce8a-4441-b9bd-fc1e4476ae1a")
+	)
+	(wire
+		(pts
+			(xy 55.88 187.96) (xy 69.85 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f869ed40-12a2-4d55-bb52-d2aea44a3256")
+	)
+	(bus
+		(pts
+			(xy 127 172.72) (xy 127 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9068131-3bce-46a1-ab78-251701880360")
+	)
+	(wire
+		(pts
+			(xy 40.64 123.19) (xy 52.07 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe9b7d5-92a4-4e19-886f-6caebbd8a5cb")
+	)
+	(bus
+		(pts
+			(xy 38.1 95.25) (xy 38.1 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc503aa5-1158-4ff1-9e71-5a5f224b0f73")
+	)
+	(wire
+		(pts
+			(xy 44.45 181.61) (xy 44.45 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc53c2d7-767c-448e-b794-b69004d678a9")
+	)
+	(wire
+		(pts
+			(xy 55.88 181.61) (xy 55.88 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd82097a-6940-4773-a987-e77649c1bb15")
+	)
+	(bus
+		(pts
+			(xy 38.1 110.49) (xy 38.1 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fde137d1-927e-4fdd-b902-52c907a650f6")
+	)
+	(label "p1.11"
+		(at 40.64 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06751c43-b780-47a0-be46-52d9585224f6")
+	)
+	(label "net_conn.rx"
+		(at 153.67 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "091c21d7-d73d-4316-8094-16e5e1205c34")
+	)
+	(label "p1.7"
+		(at 40.64 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "108caf78-c9bc-45ff-a335-91eae6118127")
+	)
+	(label "qspi.clk"
+		(at 115.57 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "183db913-5fc9-41cd-8e64-3bd6c7432eda")
+	)
+	(label "p0.3"
+		(at 40.64 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1910a66e-409f-4efe-bcc0-27e19f9080db")
+	)
+	(label "p2.8"
+		(at 116.84 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f958115-e633-43eb-a76a-c4a2d1ccd3b7")
+	)
+	(label "lora_conn.dio1"
+		(at 77.47 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "230751ab-6158-41e6-a93e-a21d204a52f0")
+	)
+	(label "p2.7"
+		(at 116.84 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2408330e-ae3c-4a8c-90ce-3306d7197908")
+	)
+	(label "qspi.cs"
+		(at 142.24 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "295101b8-449b-4831-b4df-f6afe516340a")
+	)
+	(label "p1.8"
+		(at 40.64 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4360ef7c-5666-46e9-9249-497c971f15d1")
+	)
+	(label "qspi.io3"
+		(at 115.57 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "451958f7-4c6a-4f53-b4a6-075cfdfb8d56")
+	)
+	(label "p0.2"
+		(at 40.64 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46470c1f-b304-4b64-ab04-ae4d40318b56")
+	)
+	(label "p1.10"
+		(at 40.64 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f4780f1-5873-4e68-a9ac-d826e06d6fd4")
+	)
+	(label "p2.4"
+		(at 116.84 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5353e08c-d0d7-4598-b12b-55791b2e5ade")
+	)
+	(label "p2.6"
+		(at 116.84 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54d897a7-3b56-4b37-85f0-dee1d17a81f5")
+	)
+	(label "lora_conn.nss"
+		(at 78.74 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5566134a-9122-4dfb-8dd6-52b905df8551")
+	)
+	(label "p1.5"
+		(at 40.64 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57537e9e-1fd9-4d8d-b2b1-f4c8bd9f24d3")
+	)
+	(label "p1.6"
+		(at 40.64 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57c7c437-59d6-40d0-b905-a21c88659a78")
+	)
+	(label "p2.7"
+		(at 116.84 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a6bde8e-66bf-43cd-98b5-0e560c53bb63")
+	)
+	(label "p0.0"
+		(at 40.64 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d61ae68-c8c8-44e9-b2e2-6f8e8a696ae7")
+	)
+	(label "i2s.sdout"
+		(at 76.2 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5d8eea7f-4a78-4774-bab6-35d78c8b6879")
+	)
+	(label "p2.9"
+		(at 116.84 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5de63c81-a12f-4f95-b673-99ca2b380e02")
+	)
+	(label "i2s.bclk"
+		(at 76.2 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "606f2b6e-d9d2-4d77-8d82-19c0b0466266")
+	)
+	(label "lora_conn.mosi"
+		(at 78.74 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6767bf15-40c7-4089-9579-a75fdedfb529")
+	)
+	(label "p0.1"
+		(at 40.64 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c31479a-b406-4267-9b1c-0ac2d5061039")
+	)
+	(label "lora_conn.sck"
+		(at 78.74 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "73fbe443-66b8-4032-bbf0-121e0cc13942")
+	)
+	(label "p1.13"
+		(at 40.64 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "745d890c-882d-4c3d-ab5e-64c24cceabba")
+	)
+	(label "p1.9"
+		(at 40.64 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e93002e-c4ae-43f3-9a01-261b2c0a24f5")
+	)
+	(label "p1.2"
+		(at 40.64 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "818f2147-4c00-42cb-b3ab-d311997a6aea")
+	)
+	(label "p2.3"
+		(at 116.84 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8556c857-093d-4c2b-8db1-46d4ec7f4e8c")
+	)
+	(label "qspi.io1"
+		(at 115.57 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a1da74c-28a1-4b00-937c-63516deb2065")
+	)
+	(label "qspi.io1"
+		(at 142.24 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8aec5773-81fc-4adc-a83b-b76fdc590de4")
+	)
+	(label "lora_conn.rxen"
+		(at 154.94 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b34b307-e6ba-45ee-af24-6b3e77448716")
+	)
+	(label "qspi.cs"
+		(at 115.57 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d91c009-5f5b-4ef0-80b2-07fe2cfbddf7")
+	)
+	(label "qspi.clk"
+		(at 142.24 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93efb1f3-ccb2-45a9-89fe-b310f249b56f")
+	)
+	(label "qspi{cs clk io0 io1 io2 io3}"
+		(at 153.67 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97b96b02-aac2-4eb8-a15f-0fd9d8bfa3b6")
+	)
+	(label "p2.1"
+		(at 116.84 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a89e5241-c2de-4f90-acb8-c4e35b736676")
+	)
+	(label "p2.10"
+		(at 116.84 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a96c16fb-c3e4-4c6a-83f9-e8d115c05f3e")
+	)
+	(label "lora_conn.miso"
+		(at 78.74 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ab92badb-499d-4bff-b02a-1daad7ebf34c")
+	)
+	(label "p2.5"
+		(at 116.84 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac8ca0dc-72bd-4ace-8bba-8ff4d1b4c273")
+	)
+	(label "qspi.io0"
+		(at 115.57 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2fd59ea-9616-4ee0-9755-5ffc27f623f0")
+	)
+	(label "lora_conn.nrst"
+		(at 77.47 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b8697e1e-afbf-4f00-81dd-865c01705941")
+	)
+	(label "i2s.fsync"
+		(at 76.2 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b90758b1-ae82-4fad-9d6a-e4745907b5ae")
+	)
+	(label "lora_conn.busy"
+		(at 77.47 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba2db5d6-427f-44e0-9dc2-4ccd0da6133c")
+	)
+	(label "net_conn.tx"
+		(at 153.67 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc5846aa-94e4-421a-abeb-e67a6917abcf")
+	)
+	(label "p2.2"
+		(at 116.84 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bdf5968b-d4bc-4c99-9e36-e12ee231f480")
+	)
+	(label "p1.3"
+		(at 40.64 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c066607d-20ea-49da-99f4-db061cd99b37")
+	)
+	(label "p2.0"
+		(at 116.84 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2a1f849-c670-4a71-b2b0-d2713d79e483")
+	)
+	(label "lora_conn.txen"
+		(at 154.94 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c73c34cf-f850-43db-b23f-32c7aca385dc")
+	)
+	(label "i2c.sda"
+		(at 73.66 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c9d219ed-c6db-473c-91bb-b0adb16dccb5")
+	)
+	(label "p1.4"
+		(at 40.64 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc6b1ba1-38a4-4f7a-a43b-75df6d82ac0e")
+	)
+	(label "p0.4"
+		(at 40.64 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cec15701-8e1d-4d3a-a8b1-d561ac9c3ef6")
+	)
+	(label "qspi{cs clk io0 io1 io2 io3}"
+		(at 128.27 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0b6c13b-7aad-450b-9077-ec880ab26d46")
+	)
+	(label "qspi.io2"
+		(at 115.57 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d30261f9-2d9e-4f01-b442-814557f6b782")
+	)
+	(label "debug.swo"
+		(at 162.56 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d3d34da5-7caf-4c7c-8337-a1d1db347fec")
+	)
+	(label "qspi.io0"
+		(at 142.24 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4c671ab-ca0e-46bc-8768-41b557caf7f2")
+	)
+	(label "p1.14"
+		(at 40.64 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d74aaf60-7bc0-41f0-9414-8e5d4b1fb28b")
+	)
+	(label "p1.12"
+		(at 40.64 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd2ccf89-fc0c-43df-9fe8-17c9dc0d5412")
+	)
+	(label "qspi.io3"
+		(at 142.24 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4a4026b-6a94-4324-a50b-8512e2184675")
+	)
+	(label "i2c.scl"
+		(at 73.66 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e58c20ea-d64b-4a96-8b39-6001f50ca915")
+	)
+	(label "qspi.io2"
+		(at 142.24 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "edc186ed-a9b6-4709-bb4c-49ad63ecab01")
+	)
+	(hierarchical_label "lte_en"
+		(shape input)
+		(at 137.16 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0623d436-ae92-48b4-bd68-6619fdf3ef0d")
+	)
+	(hierarchical_label "p1.[0..14]"
+		(shape bidirectional)
+		(at 36.83 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "156ce393-c290-48a6-af58-724ac447d507")
+	)
+	(hierarchical_label "p0.[0..4]"
+		(shape bidirectional)
+		(at 36.83 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36a617b3-39be-4b70-bf1c-bc31f3dbf9c1")
+	)
+	(hierarchical_label "lora_conn{sck mosi miso nss rxen txen dio1 busy nrst}"
+		(shape bidirectional)
+		(at 158.75 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b9ee0e0-2519-4ff4-a05d-3723b71306ed")
+	)
+	(hierarchical_label "net_1_en"
+		(shape output)
+		(at 76.2 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60520df6-b7aa-4d91-a9e6-db5748ab73e4")
+	)
+	(hierarchical_label "net_2_en"
+		(shape output)
+		(at 76.2 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "736a698d-abf6-482d-b4bc-2bcd618999d8")
+	)
+	(hierarchical_label "adc_en"
+		(shape output)
+		(at 76.2 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "94e22972-59ea-4973-a29d-b2c464fc0a03")
+	)
+	(hierarchical_label "lora_conn{sck mosi miso nss rxen txen dio1 busy nrst}"
+		(shape bidirectional)
+		(at 81.28 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9cea5454-3acd-4556-b5d1-6fcfb3b0aa43")
+	)
+	(hierarchical_label "lora_conn{sck mosi miso nss rxen txen dio1 busy nrst}"
+		(shape bidirectional)
+		(at 82.55 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2df50f6-ada2-479f-ac5f-da7f8a4a36e0")
+	)
+	(hierarchical_label "net_conn{rx tx}"
+		(shape bidirectional)
+		(at 157.48 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd6b4472-7d10-4e41-9983-fc624878405e")
+	)
+	(hierarchical_label "i2c{scl sda}"
+		(shape bidirectional)
+		(at 77.47 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0258a2b-12a9-48fb-ad16-1a20ba971e6d")
+	)
+	(hierarchical_label "avcc_en"
+		(shape output)
+		(at 76.2 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e424d716-f186-4573-bb9b-fdcff74428f2")
+	)
+	(hierarchical_label "debug{nreset swdclk swo swdio}"
+		(shape bidirectional)
+		(at 166.37 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e56142e0-a49b-45a0-8e40-0e59c580fe90")
+	)
+	(hierarchical_label "i2s{fsync bclk sdout}"
+		(shape bidirectional)
+		(at 80.01 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e6c22103-262c-48b9-ae28-960059787841")
+	)
+	(hierarchical_label "p2.[0..10]"
+		(shape bidirectional)
+		(at 113.03 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa941028-283e-459e-94de-1731087c8e27")
+	)
+	(symbol
+		(lib_id "Passive_Components:TFR0603")
+		(at 101.6 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03002341-646a-4129-a322-5aebc9427bac")
+		(property "Reference" "R1302"
+			(at 106.68 171.45 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 96.52 171.45 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:R0603"
+			(at 101.6 176.22 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 172.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor ?Ω ?% 0603 1/10W"
+			(at 101.6 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 101.6 174.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49ece2ef-5d7f-4ddb-b937-b0ddfc58e36b")
+		)
+		(pin "2"
+			(uuid "a0a0a2bc-c204-4155-999d-87fdff4be393")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "R1302")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "R1302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Solder_Jumper")
+		(at 133.35 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14a24230-50b5-40bc-9c18-3c5389956b58")
+		(property "Reference" "J1318"
+			(at 128.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "clk"
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:Solder Jumper"
+			(at 133.35 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad2ddd9d-cf05-45da-83e9-cdb7ffeedf90")
+		)
+		(pin "1"
+			(uuid "19af9678-fd43-4b44-b4ed-29a0cd70b027")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1318")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1318")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Solder_Jumper")
+		(at 57.15 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2218c351-e1b4-4a90-a9c6-d6d1f5e922c8")
+		(property "Reference" "J1312"
+			(at 52.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "net_2_en"
+			(at 63.5 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:Solder Jumper"
+			(at 57.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "845e4de6-8671-489e-895f-bbb7b411bbaa")
+		)
+		(pin "1"
+			(uuid "1ffba5f0-d9a6-447e-b1dd-4901b63d7bfa")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1312")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1312")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Solder_Jumper")
+		(at 57.15 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24b9271f-f6fd-4c56-8fe9-e262e2bbcffb")
+		(property "Reference" "J1304"
+			(at 52.07 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "sda"
+			(at 60.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:Solder Jumper"
+			(at 57.15 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c692646b-fba9-464c-844d-181478024b66")
+		)
+		(pin "1"
+			(uuid "c0c3d8e4-9bbe-47cc-a7bd-e213d2b5bfe5")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1304")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Solder_Jumper")
+		(at 133.35 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e2a37db-dbb7-4e96-8d13-81e6e142d876")
+		(property "Reference" "J1322"
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "cs"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:Solder Jumper"
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5b5af7f9-2dc7-480a-a440-f23df00254cb")
+		)
+		(pin "1"
+			(uuid "474539c0-222d-4b4e-8d12-f3532a433707")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1322")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1322")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Solder_Jumper")
+		(at 57.15 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32029fda-79f8-49f7-8897-b7fd46e5b2b7")
+		(property "Reference" "J1313"
+			(at 52.07 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "sck"
+			(at 63.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:Solder Jumper"
+			(at 57.15 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a9a48fcc-ee96-42ad-962f-562cbfb30d4a")
+		)
+		(pin "1"
+			(uuid "c0d783f9-a618-43fb-b42f-08e3914a0f22")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1313")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1313")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Solder_Jumper")
+		(at 133.35 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34b1ddca-5ace-4175-b1e6-49ae312289bd")
+		(property "Reference" "J1320"
+			(at 128.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "io2"
+			(at 137.16 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:Solder Jumper"
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5d52a503-b6ac-44aa-a80b-489ad14588f3")
+		)
+		(pin "1"
+			(uuid "0a233f21-a3f7-4b7c-99be-5e78632cf335")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1320")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1320")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Testpoint")
+		(at 50.8 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f39a864-ff5f-4f83-bcb3-cffcc720b28a")
+		(property "Reference" "TP1302"
+			(at 52.07 40.0049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "p0.1"
+			(at 52.07 42.5449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Passive_Components:TP"
+			(at 50.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32cdc9ed-5640-462c-8924-1f7320955126")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "TP1302")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "TP1302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:TFR0603")
+		(at 101.6 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4019e2b3-2d8c-4474-957f-70a6db4becbc")
+		(property "Reference" "R1304"
+			(at 106.68 176.53 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 96.52 176.53 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:R0603"
+			(at 101.6 181.3 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 177.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor ?Ω ?% 0603 1/10W"
+			(at 101.6 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 101.6 179.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b21130f-e613-44cc-b197-b86235b1b26b")
+		)
+		(pin "2"
+			(uuid "b97ecebe-623e-4dae-b970-de294984c20e")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "R1304")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "R1304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Solder_Jumper")
+		(at 57.15 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40514003-0afe-4d8e-a9f5-746272aac768")
+		(property "Reference" "J1310"
+			(at 52.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "avcc_en"
+			(at 62.23 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:Solder Jumper"
+			(at 57.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f5132e9-676b-4e27-a22e-4e2460ffbaad")
+		)
+		(pin "1"
+			(uuid "99f2a862-17c9-4c92-91e9-e6a7c04ba588")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1310")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1310")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:TFR0603")
+		(at 101.6 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "463474a7-e19d-4e71-92b1-bdc201037306")
+		(property "Reference" "R1301"
+			(at 106.68 166.37 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 96.52 166.37 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:R0603"
+			(at 101.6 171.14 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 167.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor ?Ω ?% 0603 1/10W"
+			(at 101.6 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 101.6 169.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fe8b8da-9a7d-421b-b39a-0380d3603a71")
+		)
+		(pin "2"
+			(uuid "70d0f5ad-e0b8-4b55-89b5-9ed250fb6c32")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "R1301")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "R1301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Solder_Jumper")
+		(at 133.35 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5307b201-fdf0-455d-a966-da8756e2873f")
+		(property "Reference" "J1326"
+			(at 128.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "txen"
+			(at 137.16 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:Solder Jumper"
+			(at 133.35 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bd39226c-395e-49ef-b999-62ed56bae0c0")
+		)
+		(pin "1"
+			(uuid "797b8626-ffc3-4a6f-a84f-79d9a7866b17")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1326")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1326")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Solder_Jumper")
+		(at 57.15 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b876398-5f5c-4c7a-871e-96c31d01c5ae")
+		(property "Reference" "J1305"
+			(at 52.07 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "scl"
+			(at 60.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:Solder Jumper"
+			(at 57.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "92f764b8-631d-4145-b45b-c23ec2aa989e")
+		)
+		(pin "1"
+			(uuid "65073dde-471d-4721-9d27-8a737eed3f8b")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1305")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1305")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Solder_Jumper")
+		(at 57.15 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e662eaa-8c49-4a1c-a8a4-7788438dcbea")
+		(property "Reference" "J1307"
+			(at 52.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "fsync"
+			(at 62.23 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:Solder Jumper"
+			(at 57.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a245fe4-60b3-4bd1-bdee-903bb58f5ec2")
+		)
+		(pin "1"
+			(uuid "68a8f767-754b-404e-8967-9cbc483ea449")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1307")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1307")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Solder_Jumper")
+		(at 133.35 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68f8c90f-a978-49c3-afbb-b352fd5ba44e")
+		(property "Reference" "J1321"
+			(at 128.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "io1"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:Solder Jumper"
+			(at 133.35 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b682b078-72b7-4f1e-9fad-3b0eaab0d8df")
+		)
+		(pin "1"
+			(uuid "48bd2a2d-45a4-4b0f-96ef-5a49c619c3dc")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1321")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1321")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Testpoint")
+		(at 46.99 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b9b1049-93dd-4503-8abe-cc3b0baa6d9f")
+		(property "Reference" "TP1301"
+			(at 48.26 34.9249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "p0.0"
+			(at 48.26 37.4649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Passive_Components:TP"
+			(at 46.99 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e038f170-66b0-479f-8acc-221357b0a1b2")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "TP1301")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "TP1301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:MLCC0603")
+		(at 55.88 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72e1715a-5e63-499d-a18b-edfaaf11a072")
+		(property "Reference" "C1302"
+			(at 58.42 175.26 90)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 58.42 177.8 90)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Passive_Components:C0603"
+			(at 60.88 177.8 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.93 176.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non-Polorized Capacitor ?F ?% 0603 ?V"
+			(at 55.88 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 58.42 180.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "578b9fe5-3570-4728-9cea-2464df3ac852")
+		)
+		(pin "1"
+			(uuid "ebb9e7df-6654-41e9-a5ae-631a2d2ef72b")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "C1302")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "C1302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Solder_Jumper")
+		(at 133.35 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72e6f74e-cae3-40c7-85a5-62a56ecd4d01")
+		(property "Reference" "J1319"
+			(at 128.27 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "io0"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:Solder Jumper"
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "40489606-6760-4781-ab86-4b1c6e995379")
+		)
+		(pin "1"
+			(uuid "c2d51b5e-5d5c-41ed-a4ea-3c926823658f")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1319")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1319")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Solder_Jumper")
+		(at 133.35 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78bfbe2a-4999-4df8-9fdb-abd9e4d70985")
+		(property "Reference" "J1317"
+			(at 128.27 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "io3"
+			(at 137.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:Solder Jumper"
+			(at 133.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d063d7c-b066-434e-9ac9-439efc62e121")
+		)
+		(pin "1"
+			(uuid "1b6df298-9ef5-4431-813e-f3726a49243d")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1317")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1317")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Solder_Jumper")
+		(at 57.15 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79e71ca3-c955-4179-81bf-867b353f01e4")
+		(property "Reference" "J1311"
+			(at 52.07 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "net_1_en"
+			(at 63.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:Solder Jumper"
+			(at 57.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1b4770b-471d-4734-9dd2-61f78818bec5")
+		)
+		(pin "1"
+			(uuid "328b530d-5895-4b38-af37-b56681c0a5ab")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1311")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:MLCC0603")
+		(at 44.45 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c57d1e7-8315-45e1-ae73-d824a754cbbb")
+		(property "Reference" "C1301"
+			(at 46.99 175.26 90)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 46.99 177.8 90)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Passive_Components:C0603"
+			(at 49.45 177.8 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.5 176.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non-Polorized Capacitor ?F ?% 0603 ?V"
+			(at 44.45 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 46.99 180.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "b675b346-12d3-4764-97b4-7f27084e7ed7")
+		)
+		(pin "1"
+			(uuid "f653705f-9bea-4d0c-8fc5-cad47667e6a5")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "C1301")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "C1301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Solder_Jumper")
+		(at 57.15 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d61559c-d5e9-4dbb-a4c2-ca76acd09357")
+		(property "Reference" "J1301"
+			(at 52.07 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "dio01"
+			(at 60.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:Solder Jumper"
+			(at 57.15 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bca5284d-3f2d-4e6e-9996-583dda22a7ea")
+		)
+		(pin "1"
+			(uuid "f3ff9f01-b056-4c76-9cb4-740d9dae2669")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1301")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Solder_Jumper")
+		(at 57.15 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ea007c2-95b0-4462-8a3b-e555f35e0613")
+		(property "Reference" "J1316"
+			(at 52.07 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "nss"
+			(at 63.5 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:Solder Jumper"
+			(at 57.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "104ca9ca-8657-4347-afd4-a7e2518ed427")
+		)
+		(pin "1"
+			(uuid "bd2fd8dd-2e30-49b5-890d-f8d44d789e81")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1316")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1316")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Solder_Jumper")
+		(at 133.35 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "815c4972-65d9-4dd3-9a6f-ac4109e095f4")
+		(property "Reference" "J1323"
+			(at 128.27 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "rx"
+			(at 137.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:Solder Jumper"
+			(at 133.35 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "87b54b69-7c3f-45c5-9f9c-a0659777afe3")
+		)
+		(pin "1"
+			(uuid "528cbe2d-1894-4e33-810c-36be39765f71")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1323")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1323")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Solder_Jumper")
+		(at 57.15 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8168a4c6-3ddc-40ed-acd2-d70a4e5b4e93")
+		(property "Reference" "J1303"
+			(at 52.07 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "nrst"
+			(at 60.96 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:Solder Jumper"
+			(at 57.15 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "395dd70b-dd55-4233-9514-9b8cb50fded4")
+		)
+		(pin "1"
+			(uuid "de193640-e09a-4228-905f-9fa8fb1a3349")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1303")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:TFR0603")
+		(at 101.6 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "848ed2a9-ba1e-46e5-a346-0616d19781fa")
+		(property "Reference" "R1303"
+			(at 106.68 173.99 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 96.52 173.99 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:R0603"
+			(at 101.6 178.76 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 175.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor ?Ω ?% 0603 1/10W"
+			(at 101.6 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 101.6 177.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce53d16b-3cff-49e3-ae56-42056435c119")
+		)
+		(pin "2"
+			(uuid "10eae205-b943-4bd0-b47e-16cf550c5317")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "R1303")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "R1303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power_symbol:GND")
+		(at 44.45 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85d83e10-8eb7-479b-9907-dfbddc2528cb")
+		(property "Reference" "#PWR01302"
+			(at 48.26 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DGND"
+			(at 48.26 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "DGND"
+			(at 44.45 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "9930f606-c1b3-4607-b269-432050b779d8")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "#PWR01302")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "#PWR01302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Solder_Jumper")
+		(at 57.15 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9cc76bd0-daad-4155-9f17-6f0d1122e561")
+		(property "Reference" "J1315"
+			(at 52.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "miso"
+			(at 63.5 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:Solder Jumper"
+			(at 57.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "80234a89-3fea-459d-8a05-94e11a50a007")
+		)
+		(pin "1"
+			(uuid "5aede6d5-4dd3-459a-a52d-ec031f98ca53")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1315")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1315")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:FB0603")
+		(at 63.5 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d8b518e-4840-449a-982e-2bf44947ac08")
+		(property "Reference" "FB1301"
+			(at 63.627 158.75 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "FB0603"
+			(at 63.627 161.29 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:FB0603"
+			(at 63.5 171.14 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 167.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite Bead 0603 2A"
+			(at 63.5 172.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 63.627 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ac69a428-bb07-49c6-81d4-7086d70037ba")
+		)
+		(pin "1"
+			(uuid "0d13ab3f-21c3-42e6-8101-df658dd53cb1")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "FB1301")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "FB1301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Solder_Jumper")
+		(at 57.15 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6e5c84c-5794-4abc-ba94-50c71599188b")
+		(property "Reference" "J1314"
+			(at 52.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "mosi"
+			(at 63.5 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:Solder Jumper"
+			(at 57.15 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "efe3141e-acb8-4516-9d5f-b6d83e631b80")
+		)
+		(pin "1"
+			(uuid "599f7e39-77c2-4ac7-b726-38681879c02d")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1314")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1314")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:TFR0603")
+		(at 101.6 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "acb6f191-097e-4cc1-a980-5950365fa703")
+		(property "Reference" "R1305"
+			(at 106.68 179.07 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 96.52 179.07 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:R0603"
+			(at 101.6 183.84 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor ?Ω ?% 0603 1/10W"
+			(at 101.6 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 101.6 182.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e6dac09-6905-49a6-a7d4-d760b863476c")
+		)
+		(pin "2"
+			(uuid "e52efdd5-012b-47a4-80de-95965279cc02")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "R1305")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "R1305")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Solder_Jumper")
+		(at 133.35 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b509d059-edf6-4d9c-8a8d-427ad0ee9863")
+		(property "Reference" "J1325"
+			(at 128.27 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "rxen"
+			(at 137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:Solder Jumper"
+			(at 133.35 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8b166a7a-067c-4eaa-b0ab-a8574b6adf46")
+		)
+		(pin "1"
+			(uuid "c20d5cde-b29a-46eb-aae2-1a9a65161da7")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1325")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1325")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Solder_Jumper")
+		(at 57.15 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9e62275-f6de-450f-9955-5b4653fe4632")
+		(property "Reference" "J1302"
+			(at 52.07 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "busy"
+			(at 60.96 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:Solder Jumper"
+			(at 57.15 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0628ee92-32fb-48d9-a776-f3181c04a190")
+		)
+		(pin "1"
+			(uuid "5a7ebfd6-b0b4-4db7-a65c-b910f06d2f51")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1302")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MX25R6435FM2IL0:MX25R6435FM2IL0")
+		(at 82.55 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c477705e-70fa-4b97-9460-11459431155d")
+		(property "Reference" "U1301"
+			(at 82.55 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX25R6435FM2IL0"
+			(at 82.55 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX25R6435FM2IL0:MX25R6435FM2IL0"
+			(at 82.55 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.macronix.com/Lists/Datasheet/Attachments/8868/MX25R6435F,%20Wide%20Range,%2064Mb,%20v1.6.pdf"
+			(at 82.55 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "191c1834-1ecc-4e57-b2fd-1ebb6f903176")
+		)
+		(pin "3"
+			(uuid "d392f9be-9414-442e-ae0f-cd21f024dca0")
+		)
+		(pin "1"
+			(uuid "8d521556-1c3d-4c03-bd0d-c101032e6246")
+		)
+		(pin "7"
+			(uuid "2d8f6c37-0fa5-4931-a2f5-f39b41f80449")
+		)
+		(pin "4"
+			(uuid "66b4e4e4-7b1c-4251-8305-5e3211e0cb2a")
+		)
+		(pin "8"
+			(uuid "1e954d0f-1815-4e08-9d55-e12e2cfb6ff4")
+		)
+		(pin "5"
+			(uuid "0000f031-1834-486b-bc79-f3c4a78ecb6a")
+		)
+		(pin "2"
+			(uuid "7b0e34b2-7209-4b43-aa8f-dbeab7c358b3")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "U1301")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "U1301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Solder_Jumper")
+		(at 57.15 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca7fe415-3a6e-4e6b-b38b-3734ba885739")
+		(property "Reference" "J1309"
+			(at 52.07 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "adc_en"
+			(at 62.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:Solder Jumper"
+			(at 57.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4a49f647-964c-42fa-9644-bdda2f198ead")
+		)
+		(pin "1"
+			(uuid "84bc6c6b-8ca9-4908-bcb2-c1b36219b7ad")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1309")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1309")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:TFR0603")
+		(at 123.19 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d867869b-c9b4-4a04-ba75-e84a2e443827")
+		(property "Reference" "R1306"
+			(at 121.666 157.48 90)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 121.666 160.02 90)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Passive_Components:R0603"
+			(at 126.69 160.02 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 160.02 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor ?Ω ?% 0603 1/10W"
+			(at 123.19 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 121.666 162.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "1b266f5f-3151-407d-a8bf-7c5bc2205011")
+		)
+		(pin "1"
+			(uuid "e58ec06d-8bb6-4e29-9394-0a89b70e88ea")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "R1306")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "R1306")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Solder_Jumper")
+		(at 57.15 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dba0ba5b-359e-4828-95ea-d9cdb750c6dd")
+		(property "Reference" "J1308"
+			(at 52.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "sdout"
+			(at 62.23 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:Solder Jumper"
+			(at 57.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "759dc7bf-8665-4263-9087-d4c34f04a76a")
+		)
+		(pin "1"
+			(uuid "afbf3e1b-09a9-4cd7-ac44-370ff0d7d499")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1308")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1308")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Solder_Jumper")
+		(at 57.15 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e73a9441-dcd4-477c-bfb5-8bae61589544")
+		(property "Reference" "J1306"
+			(at 52.07 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "bclk"
+			(at 62.23 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:Solder Jumper"
+			(at 57.15 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ff703b86-c5a8-4d0c-9bf1-bca5f00dc18f")
+		)
+		(pin "1"
+			(uuid "74d2e5c9-0559-4762-8959-5effcdf0e9df")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1306")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1306")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Solder_Jumper")
+		(at 133.35 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebb23dbe-c4ae-44e3-bf55-f7e45971b9ec")
+		(property "Reference" "J1327"
+			(at 128.27 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "swo"
+			(at 137.16 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:Solder Jumper"
+			(at 133.35 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dc213b41-8043-4970-85d2-6f5854d0e29f")
+		)
+		(pin "1"
+			(uuid "6633b13b-b27d-41c6-8088-c76fcffe0254")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J?")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1327")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power_symbol:Vcc")
+		(at 44.45 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebd9930b-7bb5-4fd7-9c16-78ac39a9ef3b")
+		(property "Reference" "#PWR01301"
+			(at 48.26 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "D3V3"
+			(at 48.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "D3V3"
+			(at 44.45 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "82b115c9-0721-4721-b799-8214905cb2ce")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "#PWR01301")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "#PWR01301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power_symbol:Vcc")
+		(at 123.19 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed01bc32-be7c-4353-96bd-6ab0b457e52d")
+		(property "Reference" "#PWR01303"
+			(at 127 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "D3V3"
+			(at 127 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "D3V3"
+			(at 123.19 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "aab378e0-943f-4cba-ad08-02192d39fcff")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "#PWR01303")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "#PWR01303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Components:Solder_Jumper")
+		(at 133.35 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2cdf410-90e6-44ea-b0eb-2fd7811d315b")
+		(property "Reference" "J1324"
+			(at 128.27 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "tx"
+			(at 137.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Passive_Components:Solder Jumper"
+			(at 133.35 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb8c1b38-e8bc-4ed4-8971-8e70ea4bfe85")
+		)
+		(pin "1"
+			(uuid "1bcb3c47-43a5-44c6-840e-5e4adbffcf13")
+		)
+		(instances
+			(project "ASL-17"
+				(path "/72da2928-18f1-405b-a096-88f6793097f0/55b05ddc-a8ef-4e3e-b278-1d0a729ad3da/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1324")
+					(unit 1)
+				)
+			)
+			(project "ASL-17_main"
+				(path "/ba59c252-6318-4fd9-9749-8792893c19c7/2dfa19ba-93a5-47e6-b84b-621a1efb27a0"
+					(reference "J1324")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

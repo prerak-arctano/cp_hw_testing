@@ -1,0 +1,11 @@
+identifier: nrf54l15_arctano/nrf54l15/cpuflpr
+name: Arctano nRF54L15 FLPR MCU
+vendor: arctano
+arch: riscv
+toolchain:
+  - zephyr
+sysbuild: true
+ram: 96
+flash: 96
+supported:
+  - gpio

@@ -1,0 +1,11 @@
+identifier: nrf54l15_arctano/nrf54l15/cpuflpr/xip
+name: Arctano nRF54L15 FLPR MCU XIP
+vendor: arctano
+arch: riscv
+toolchain:
+  - zephyr
+sysbuild: true
+ram: 68
+flash: 96
+supported:
+  - gpio

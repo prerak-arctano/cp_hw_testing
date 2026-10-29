@@ -1,0 +1,11 @@
+#include "nrf54l15_arctano_nrf54l15_cpuflpr.dts"
+
+/ {
+	model = "Arctano nRF54L15 FLPR MCU XIP";
+	compatible = "arctano,nrf54l15-arctano-cpuflpr-xip";
+};
+
+&cpuflpr_sram {
+	reg = <0x2002f000 DT_SIZE_K(68)>;
+	ranges = <0x0 0x2002f000 DT_SIZE_K(68)>;
+};
