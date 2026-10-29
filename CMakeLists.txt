@@ -7,4 +7,7 @@ target_sources(app PRIVATE
 	src/main.c
 	src/net_enable.c
 	src/i2c_scanner.c
+	src/qspi.c
+	src/rtc.c
+	src/uart.c
 )
